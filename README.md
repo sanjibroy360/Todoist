@@ -329,7 +329,7 @@ mutation RemoveMembersInfo {
 - created_at [timestamp with time zone, default: now()]
 - updated_at [timestamp with time zone, default: now()]
 - scheduled_at [timestamp with time zone, nullable]
-- assigned [text, nullable]
+- assigned_user [text, nullable]
 - priority [ integer, default: 0]
 
 ### Add Task
